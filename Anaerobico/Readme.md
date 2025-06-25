@@ -1,4 +1,4 @@
-# Archivo: Proveedor anaerobics
+# Archivo: Proveedor anaerobicos
 
 ## Descripción general
 
