@@ -38,3 +38,22 @@ Este documento describe el proceso de transformación y limpieza aplicado al arc
 7. **Ajuste final:**  
    Se aplicaron formatos y estilos para asegurar que el archivo final coincidiera con el modelo de referencia proporcionado (tipografía, alineación, formato numérico, etc.).
 
+
+## Atajos y tips usados
+
+- **Ctrl + A**: Seleccionar todo el rango activo (presionar dos veces para seleccionar toda la hoja).  
+- **Ctrl + Shift + ↓**: Seleccionar todas las celdas hacia abajo desde la celda activa.  
+- **Ctrl + C**: Copiar celdas seleccionadas.  
+- **Ctrl + X**: Cortar celdas seleccionadas.  
+- **Ctrl + Mayús + V**: Pegado especial — Pegar solo valores, sin fórmulas ni formatos.  
+- **Ctrl + Z**: Deshacer última acción.  
+
+- **Datos > Crear filtro**: Para aplicar filtros personalizados en columnas.  
+- **Filtro por condición > Está vacío**: Para detectar y eliminar filas vacías.  
+- **Datos > Ordenar intervalo por columna "G" Z → A**: Para ordenar datos de mayor a menor según la columna G.  
+- **Archivo > Configuración > Configuración regional > Argentina**: Para ajustar formatos numéricos y monetarios regionales.  
+
+- **ARRAYFORMULA**: Para aplicar operaciones a rangos completos sin copiar la fórmula una por una.  
+  Ejemplo:  
+  ```excel
+  =ARRAYFORMULA(F2:F / 100)
